@@ -44,11 +44,11 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-if (message.content === prefix+'spam1') {
+if (message.content === prefix+'spam2') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**GEKYUME tooooooooooooop**[ " ${x} " ]`)
+        message.channel.send(`**GEKYUME tooooooooooooop2**[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -95,11 +95,11 @@ client2.on('message', message => {
 });
 
 client2.on('message', message => {
-if (message.content === prefix+'spam1') {
+if (message.content === prefix+'spam2') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**GEKYUME tooooooooooooop**[ " ${x} " ]`)
+        message.channel.send(`**GEKYUME tooooooooooooop2**[ " ${x} " ]`)
           .then(m => {
             count++;
           })
